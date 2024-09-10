@@ -59,9 +59,6 @@ export const Header = () => (
         <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#1366ec] text-[#f8f9fc] text-sm font-bold leading-normal tracking-[0.015em]">
           <span className="truncate">Contact</span>
         </button>
-        <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#e7ecf3] text-[#0d131b] text-sm font-bold leading-normal tracking-[0.015em]">
-          <span className="truncate">1300 000 000</span>
-        </button>
       </div>
     </div>
   </header>
