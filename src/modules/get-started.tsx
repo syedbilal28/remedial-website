@@ -8,7 +8,7 @@ export const GetStarted = () => (
           Ready to get started?
         </h1>
         <p className="text-[#0d131b] text-base font-normal leading-normal max-w-[720px]">
-          Let's talk about your project.
+          Let&lsquo;s talk about your project.
         </p>
       </div>
       <div className="flex flex-1 justify-center">

@@ -4,25 +4,24 @@ import { Hero } from "@/modules/hero";
 import { Services } from "@/modules/services";
 import { WhyChooseUs } from "@/modules/why-choose-us";
 import Head from "next/head";
-import '../app/styles/globals.css'
+import "../app/styles/globals.css";
+import { OurValues } from "@/modules/our-values";
 
 export default function Home() {
   return (
-    <div
-      className="relative flex size-full min-h-screen flex-col bg-[#f8f9fc] group/design-root overflow-x-hidden"
-    >
+    <div className="relative flex size-full min-h-screen flex-col bg-[#f8f9fc] group/design-root overflow-x-hidden">
       <Head>
         <title>Galileo Design</title>
         <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
-        <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+        {/* <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script> */}
       </Head>
       <div className="layout-container flex h-full grow flex-col font-sans">
-        <Header/>
+        <Header />
         <div className="flex flex-1 justify-center">
           <div className="layout-content-container flex flex-col flex-1">
-            <Hero/>
-            <Services/>
-            <WhyChooseUs/>
+            <Hero />
+            <Services />
+            <WhyChooseUs />
             <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 px-40">
               <div className="flex flex-col gap-3">
                 <div
@@ -61,7 +60,8 @@ export default function Home() {
                 ></div>
               </div>
             </div>
-            <GetStarted/>
+            <OurValues />
+            <GetStarted />
           </div>
         </div>
       </div>

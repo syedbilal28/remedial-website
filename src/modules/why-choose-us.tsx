@@ -35,7 +35,7 @@ export const WhyChooseUs = () => {
   ];
 
   return (
-    <div className="px-40 text-center">
+    <div className="px-40 text-center py-10">
     <h2 className="text-[#0d131b] text-[22px] font-bold leading-tight tracking-[-0.015em] pb-3 pt-5">
       Why Choose Us?
     </h2>
