@@ -1,16 +1,10 @@
 import { ContactInfo } from '@/modules/contact-info';
 import { Header } from '@/modules/header';
-import Head from 'next/head';
 import React from 'react';
 
 export default function ContactUs() {
     return (
         <>
-      <Head>
-        <link rel="preconnect" href="https://fonts.gstatic.com/" crossOrigin="" />
-        <title>Galileo Design</title>
-        <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
-      </Head>
       <div className="relative flex size-full min-h-screen flex-col bg-[#f8f9fc] group/design-root overflow-x-hidden" style={{ fontFamily: 'Inter, "Noto Sans", sans-serif' }}>
         <div className="layout-container flex h-full grow flex-col">
           <Header/>
