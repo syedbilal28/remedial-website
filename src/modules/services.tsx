@@ -7,55 +7,55 @@ export const Services = () => {
       title: "Concrete Repairs",
       content:
         " Restoration and maintenance of concrete surfaces. This includes repairing cracks, spalling, and other forms of concrete damage to ensure durability and safety.",
-      image: "https://cdn.usegalileo.ai/stability/88b1f868-f851-499a-bc5d-8ffcd9cc4f2f.png",
+      image: "/concrete-repairs.jfif",
     },
     {
       title: "Structural Repairs",
       content:
         "Solutions for repairing and reinforcing building structures, including beams, columns, and load-bearing walls. Address issues like cracks, settlement, and subsidence.",
-      image: "https://cdn.usegalileo.ai/stability/9da9f811-28f2-4880-bf26-0c3bf6238456.png",
+      image: "/structural-repairs.png",
     },
     {
       title: "Protective Coatings",
       content:
         "Protective Coatings are a type of coating that is applied to a surface to protect it from damage, wear, and tear, and other environmental factors.",
-      image: "https://cdn.usegalileo.ai/stability/82256744-82d2-46ab-9e15-420297ff99fc.png",
+      image: "/protective-coating.jpg",
     },
     {
       title: "Water Proofing",
       content:
         "Comprehensive waterproofing solutions to prevent water ingress. This includes basement waterproofing, roof repairs, and surface treatments to protect buildings from moisture damage.",
-      image: "https://cdn.usegalileo.ai/stability/88b1f868-f851-499a-bc5d-8ffcd9cc4f2f.png",
+      image: "/waterproofing.jpg",
     },
     {
       title: "Foundation Stabilisation",
       content:
         "Methods to stabilize and strengthen building foundations. Services include underpinning, soil stabilization, and foundation repair to address problems like shifting or settling.",
-      image: "https://cdn.usegalileo.ai/stability/88b1f868-f851-499a-bc5d-8ffcd9cc4f2f.png",
+      image: "/foundation-stabilisation.jpg",
     },
     {
       title: "Damp Proofing",
       content:
         "Installation of damp-proof courses and membranes to prevent and address rising damp and penetrating damp issues in buildings.",
-      image: "https://cdn.usegalileo.ai/stability/88b1f868-f851-499a-bc5d-8ffcd9cc4f2f.png",
+      image: "/damp-proofing.jpg",
     },
     {
       title: "Crack Injection",
       content:
         "Techniques for repairing cracks in walls and foundations using epoxy or polyurethane injections to restore structural integrity.",
-      image: "https://cdn.usegalileo.ai/stability/88b1f868-f851-499a-bc5d-8ffcd9cc4f2f.png",
+      image: "/crack-injection.jpg",
     },
     {
       title: "Building Inspection",
       content:
         "Thorough inspections to identify underlying issues and recommend appropriate remedial actions. This includes structural assessments and moisture investigations.",
-      image: "https://cdn.usegalileo.ai/stability/88b1f868-f851-499a-bc5d-8ffcd9cc4f2f.png",
+      image: "/building-inspection.png",
     },
     {
       title: "Custom Remedial Solutions",
       content:
         "Tailored solutions for unique or complex remedial problems, ensuring that every issue is addressed with the most effective strategy.",
-      image: "https://cdn.usegalileo.ai/stability/88b1f868-f851-499a-bc5d-8ffcd9cc4f2f.png",
+      image: "/custom-remedial-solution.jpg",
     },
 
   ];

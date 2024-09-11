@@ -6,6 +6,8 @@ import { WhyChooseUs } from "@/modules/why-choose-us";
 import Head from "next/head";
 import "../app/styles/globals.css";
 import { OurValues } from "@/modules/our-values";
+import { Mission } from "@/modules/mission";
+import { Vision } from "@/modules/vision";
 
 export default function Home() {
   return (
@@ -13,7 +15,6 @@ export default function Home() {
       <Head>
         <title>Galileo Design</title>
         <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
-        {/* <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script> */}
       </Head>
       <div className="layout-container flex h-full grow flex-col font-sans">
         <Header />
@@ -60,6 +61,8 @@ export default function Home() {
                 ></div>
               </div>
             </div>
+            <Mission/>
+            <Vision/>
             <OurValues />
             <GetStarted />
           </div>
