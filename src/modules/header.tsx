@@ -1,6 +1,11 @@
+'use client';
+import { useRouter } from "next/navigation";
 import React from "react";
 
-export const Header = () => (
+export const Header = () => {
+  const router = useRouter();
+
+  return (
   <header className="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7ecf3] px-10 py-3">
     <div className="flex items-center gap-4 text-[#0d131b]">
       <div className="size-4">
@@ -56,10 +61,14 @@ export const Header = () => (
         </a>
       </div>
       <div className="flex gap-2">
-        <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#1366ec] text-[#f8f9fc] text-sm font-bold leading-normal tracking-[0.015em]">
+        <button
+        className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#1366ec] text-[#f8f9fc] text-sm font-bold leading-normal tracking-[0.015em]"
+        onClick={() => router.push("/contact")}
+        >
           <span className="truncate">Contact</span>
         </button>
       </div>
     </div>
   </header>
 );
+};

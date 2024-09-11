@@ -8,12 +8,6 @@ export default function ContactUs() {
         <>
       <Head>
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossOrigin="" />
-        <link
-          rel="stylesheet"
-          as="style"
-          onLoad="this.rel='stylesheet'"
-          href="https://fonts.googleapis.com/css2?display=swap&family=Inter:wght@400;500;700;900&family=Noto+Sans:wght@400;500;700;900"
-        />
         <title>Galileo Design</title>
         <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
       </Head>
@@ -23,16 +17,16 @@ export default function ContactUs() {
           <div className="px-40 flex flex-1 justify-center py-5">
             <div className="layout-content-container flex flex-col flex-1">
               <div className="@container">
-                <div className="flex flex-col gap-6 px-4 py-10 @[480px]:gap-8 @[864px]:flex-row">
+                <div className="flex flex-row gap-6 px-4 py-10 @[480px]:gap-8 @[864px]:flex-row">
                   <div
                     className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl @[480px]:h-auto @[480px]:min-w-[400px] @[864px]:w-full"
                     style={{ backgroundImage: 'url("https://cdn.usegalileo.ai/sdxl10/68ba9469-40ab-4877-84b9-eb0896e9c897.png")' }}
                   ></div>
-                  <div className="flex flex-col gap-6 @[480px]:min-w-[400px] @[480px]:gap-8 @[864px]:justify-center">
+                  <div className="flex flex-col justify-center items-center gap-6 @[480px]:min-w-[400px] @[480px]:gap-8 @[864px]:justify-center">
                     <h1
                       className="text-[#0d131c] text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] text-center"
                     >
-                      Let's talk about your next project
+                      Let&lsquo;s talk about your next project
                     </h1>
                     <label className="flex flex-col min-w-40 h-14 w-full max-w-[480px] @[480px]:h-16">
                       <div className="flex w-full flex-1 items-stretch rounded-xl h-full">

@@ -4,10 +4,12 @@ import { Hero } from "@/modules/hero";
 import { Services } from "@/modules/services";
 import { WhyChooseUs } from "@/modules/why-choose-us";
 import Head from "next/head";
-import "../app/styles/globals.css";
 import { OurValues } from "@/modules/our-values";
 import { Mission } from "@/modules/mission";
 import { Vision } from "@/modules/vision";
+import TestimonialCarousel from "@/modules/carousel";
+import './styles/globals.css';
+import './styles/carousel.css'
 
 export default function Home() {
   return (
@@ -61,6 +63,7 @@ export default function Home() {
                 ></div>
               </div>
             </div>
+            <TestimonialCarousel/>
             <Mission/>
             <Vision/>
             <OurValues />
