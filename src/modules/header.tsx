@@ -43,9 +43,9 @@ export const Header = () => {
         </a>
         <a
           className="text-[#0d131b] text-sm font-medium leading-normal"
-          href="#"
+          onClick={() => router.push("/sectors")}
         >
-          Services
+          Sectors
         </a>
         <a
           className="text-[#0d131b] text-sm font-medium leading-normal"

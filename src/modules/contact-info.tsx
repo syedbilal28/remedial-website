@@ -75,7 +75,7 @@ export const ContactInfo = () => (
         </svg>
       </div>
       <p className="text-[#0d131c] text-base font-normal leading-normal flex-1 truncate">
-        Suite 2, 1st floor 8/10 Addison St, Shellharbour, NSW 2529
+      Unit 2 Princes Highway Woonona, NSW, 2517
       </p>
     </div>
   </>
