@@ -46,11 +46,11 @@ const TestimonialCarousel: React.FC = () => {
   };
 
   return (
-    <div className='text-center py-10'>
-        <h2 className="text-[#0d131b] text-[22px] font-bold leading-tight tracking-[-0.015em] pb-3 pt-5">
+    <div className='text-center py-10' id="testimonials">
+        <h2 className="text-[#0d131b] text-[32px] font-bold leading-tight tracking-[-0.015em] pb-3 pt-5">
         Testimonials
         </h2>
-        <div className="testimonial-carousel px-40">
+        <div className="testimonial-carousel px-56">
       <button onClick={handlePrev} className="prev-btn">❮</button>
       <TestimonialCard {...testimonialsData[currentIndex]} />
       <button onClick={handleNext} className="next-btn">❯</button>

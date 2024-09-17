@@ -30,42 +30,42 @@ export const Header = () => {
     <div className="flex flex-1 justify-end gap-8">
       <div className="flex items-center gap-9">
         <a
-          className="text-[#0d131b] text-sm font-medium leading-normal"
-          href="#"
+          className="text-[#0d131b] text-lg font-medium leading-normal"
+          href="/"
         >
           Home
         </a>
         <a
-          className="text-[#0d131b] text-sm font-medium leading-normal"
-          href="#"
+          className="text-[#0d131b] text-lg font-medium leading-normal"
+          href="/#about-us"
         >
           About Us
         </a>
         <a
-          className="text-[#0d131b] text-sm font-medium leading-normal"
-          onClick={() => router.push("/sectors")}
+          className="text-[#0d131b] text-lg font-medium leading-normal"
+          href="/sectors"
         >
           Sectors
         </a>
         <a
-          className="text-[#0d131b] text-sm font-medium leading-normal"
-          href="#"
+          className="text-[#0d131b] text-lg font-medium leading-normal"
+          href="/#testimonials"
         >
           Testimonials
         </a>
-        <a
+        {/* <a
           className="text-[#0d131b] text-sm font-medium leading-normal"
           href="#"
         >
           Blog
-        </a>
+        </a> */}
       </div>
       <div className="flex gap-2">
         <button
         className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#1366ec] text-[#f8f9fc] text-sm font-bold leading-normal tracking-[0.015em]"
         onClick={() => router.push("/contact")}
         >
-          <span className="truncate">Contact</span>
+          <span className="truncate text-lg">Contact</span>
         </button>
       </div>
     </div>

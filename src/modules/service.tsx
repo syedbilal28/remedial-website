@@ -7,20 +7,19 @@ interface ServiceProps {
 }
 
 export const Service: React.FC<ServiceProps> = ({ title, content, image }) => (
-  <div className="flex flex-col gap-3 pb-3">
+  <div className="relative group w-full sm:w-72 md:w-80 lg:w-96">
     <div
-      className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+      className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl group-hover:opacity-75 transition-opacity duration-300"
       style={{
         backgroundImage: `url("${image}")`,
       }}
     ></div>
-    <div>
-      <p className="text-[#0d131b] text-base font-medium leading-normal">
-        {title}
-      </p>
-      <p className="text-[#4c6a9a] text-sm font-normal leading-normal">
-        {content}
-      </p>
+    <div
+      className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl text-white text-center p-4"
+      style={{ background: 'rgba(19, 102, 236, 0.7)' }}
+    >
+      <p className="text-lg font-semibold opacity-100">{title}</p>
+      <p className="text-sm opacity-100">{content}</p>
     </div>
   </div>
 );

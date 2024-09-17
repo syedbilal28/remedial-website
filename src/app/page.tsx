@@ -25,7 +25,7 @@ export default function Home() {
             <Hero />
             <Services />
             <WhyChooseUs />
-            <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 px-40">
+            {/* <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 px-56">
               <div className="flex flex-col gap-3">
                 <div
                   className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
@@ -62,7 +62,7 @@ export default function Home() {
                   }}
                 ></div>
               </div>
-            </div>
+            </div> */}
             <TestimonialCarousel/>
             <Mission/>
             <Vision/>
