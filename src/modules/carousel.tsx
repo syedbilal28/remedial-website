@@ -11,7 +11,7 @@ interface Testimonial {
 
 const testimonialsData: Testimonial[] = [
   {
-    image: '"https://cdn.pixabay.com/photo/2018/03/06/22/57/portrait-3204843_960_720.jpg"',
+    image: 'https://cdn.pixabay.com/photo/2018/03/06/22/57/portrait-3204843_960_720.jpg',
     name: 'Branson Cook',
     role: 'Actor',
     testimony: 'Radio telescope something incredible is waiting to be known...'

@@ -7,7 +7,7 @@ interface ServiceProps {
 }
 
 export const Service: React.FC<ServiceProps> = ({ title, content, image }) => (
-  <div className="relative group w-full sm:w-72 md:w-80 lg:w-96">
+  <div className="relative group w-full w-[350px]">
     <div
       className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl group-hover:opacity-75 transition-opacity duration-300"
       style={{

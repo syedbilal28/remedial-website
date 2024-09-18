@@ -63,9 +63,9 @@ export const Services = () => {
   return (
     <div className="flex flex-col gap-10 py-10 @container px-56 items-center">
     <h1 className="text-[#0d131b] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]">
-      What we do
+      What We Do
     </h1>
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 w-full">
+    <div className="grid grid-cols-[repeat(auto-fit,minmax(350px,1fr))] gap-5 w-full">
       {servicesData.map((service) => (
         <Service key={service.title} {...service} />
       ))}

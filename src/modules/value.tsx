@@ -11,7 +11,7 @@ export const Value: React.FC<ValuesItem> = ({title, value}) => (
         <div className="p-1 w-full rounded-xl row-span-3">
             <CheckCircleFilled style={{ color: "#1366EC", fontSize: "40px" }} />
         </div>
-        <div className="p-1 w-full rounded-xl col-span-2 text-[#0d131b] text-base font-bold leading-tight text-xl flex items-center">
+        <div className="p-1 w-full rounded-xl col-span-2 text-[#0d131b] text-base font-bold leading-tight text-xl flex">
             <h2>{title}</h2>
         </div>
         <div className="p-1 w-full rounded-xl row-span-2 col-span-2">{value}</div>
