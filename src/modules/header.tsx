@@ -28,7 +28,7 @@ export const Header = () => {
             </defs>
           </svg>
         </div>
-        <h2 className="text-[#0d131b] text-lg font-bold leading-tight tracking-[-0.015em]">
+        <h2 className="text-[#0d131b] text-2xl font-bold leading-tight tracking-[-0.015em]">
           South Coast Remedial
         </h2>
       </div>
@@ -44,9 +44,10 @@ export const Header = () => {
           <a className="text-[#0d131b] text-base md:text-lg font-medium leading-normal" href="/sectors">
             Sectors
           </a>
-          <a className="text-[#0d131b] text-base md:text-lg font-medium leading-normal" href="/#testimonials">
+          {/* Commented due to Testimonials being removed */}
+          {/* <a className="text-[#0d131b] text-base md:text-lg font-medium leading-normal" href="/#testimonials">
             Testimonials
-          </a>
+          </a> */}
         </div>
         <div className="flex gap-2">
           <button
@@ -93,13 +94,14 @@ export const Header = () => {
             >
               Sectors
             </a>
-            <a
+            {/* Removed since Testimonials are removed */}
+            {/* <a
               className="text-[#0d131b] text-lg font-medium leading-normal"
               href="/#testimonials"
               onClick={toggleMenu}
             >
               Testimonials
-            </a>
+            </a> */}
             <button
               className="flex min-w-[84px] cursor-pointer items-center justify-center rounded-xl h-10 px-4 bg-[#1366ec] text-[#f8f9fc] text-sm font-bold leading-normal"
               onClick={() => {
