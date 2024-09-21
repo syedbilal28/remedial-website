@@ -25,9 +25,21 @@ export default function Home() {
             <Hero />
             <Services />
             <WhyChooseUs />
+            <div
+            style={{
+              backgroundColor: "black",
+              backgroundImage:
+                'linear-gradient(rgba(123, 171, 243, 0.8), rgba(123, 171, 243, 0.8)), url("/test-bg.png")',
+              backgroundSize: "cover",  // Ensure the image covers the div
+              backgroundPosition: "center",  // Center the image
+              backgroundRepeat: "no-repeat", // Prevent image repeating
+            }}
+            className="text-white"
+            >
             <Mission/>
             <Vision/>
             <OurValues />
+            </div>
             <GetStarted />
           </div>
         </div>

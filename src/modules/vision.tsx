@@ -2,7 +2,7 @@ import React from "react";
 
 export const Vision = () => (
     <div className="px-56 text-center py-10 pt-2">
-        <h2 className="text-[#0d131b] text-[32px] font-bold leading-tight tracking-[-0.015em] pb-3 pt-5">
+        <h2 className="text-white text-[32px] font-bold leading-tight tracking-[-0.015em] pb-3 pt-5">
         Our Vision
         </h2>
         <div className="text-justify gap-3 py-4">
