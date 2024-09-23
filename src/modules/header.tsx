@@ -11,7 +11,7 @@ export const Header = () => {
   };
 
   return (
-    <header className="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7ecf3] px-6 py-3 md:px-10 md:py-4">
+    <header className="flex font-sans items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7ecf3] px-6 py-3 md:px-10 md:py-4">
       <div className="flex items-center gap-4 text-[#0d131b]">
         <div className="w-8 h-8">
           <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">

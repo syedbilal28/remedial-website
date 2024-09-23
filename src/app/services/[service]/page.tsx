@@ -1,4 +1,3 @@
-import { Header } from "@/modules/header";
 import Head from "next/head";
 
 
@@ -11,7 +10,6 @@ export default function ServicePage() {
         <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
       </Head>
       <div className="layout-container flex h-full grow flex-col font-sans">
-        <Header />
         <div className="flex flex-1 justify-center">
           <div className="layout-content-container flex flex-col flex-1">
             <div className="px-56 py-10" id="about-us">

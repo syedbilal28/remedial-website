@@ -1,4 +1,3 @@
-import { Header } from "@/modules/header";
 import Head from "next/head";
 import React from "react";
 import "../styles/globals.css";
@@ -12,7 +11,6 @@ export default function Sectors() {
       </Head>
 
       <div className="layout-container flex h-full grow flex-col font-sans">
-        <Header />
         <div className="flex flex-1 justify-center">
           <div className="layout-content-container flex flex-col flex-1">
             {/* Hero Section */}

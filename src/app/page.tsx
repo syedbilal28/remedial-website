@@ -1,6 +1,5 @@
 'use client'
 import { GetStarted } from "@/modules/get-started";
-import { Header } from "@/modules/header";
 import { Hero } from "@/modules/hero";
 import { Services } from "@/modules/services";
 import { WhyChooseUs } from "@/modules/why-choose-us";
@@ -19,7 +18,6 @@ export default function Home() {
         <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
       </Head>
       <div className="layout-container flex h-full grow flex-col font-sans">
-        <Header />
         <div className="flex flex-1 justify-center">
           <div className="layout-content-container flex flex-col flex-1">
             <Hero />
