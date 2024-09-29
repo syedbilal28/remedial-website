@@ -10,7 +10,7 @@ export default function Sectors() {
         <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
       </Head>
 
-      <div className="layout-container flex h-full grow flex-col font-sans">
+      <div className="layout-container flex h-full grow flex-col roboto-regular">
         <div className="flex flex-1 justify-center">
           <div className="layout-content-container flex flex-col flex-1">
             {/* Hero Section */}

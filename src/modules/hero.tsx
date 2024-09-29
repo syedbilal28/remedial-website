@@ -11,7 +11,7 @@ export const Hero = () => (
         }}
       >
         <div className="flex flex-col gap-2 text-center w-2/6 backdrop-blur-sm">
-          <h1 className="text-white text-6xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
+          <h1 className="text-white text-6xl font-black leelawadee leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
             South Coast Remedial
           </h1>
           <h2 className="text-white text-lg font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">

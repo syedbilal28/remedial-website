@@ -9,7 +9,7 @@ export default function ServicePage() {
         <title>South Cost Remedial | Service</title>
         <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
       </Head>
-      <div className="layout-container flex h-full grow flex-col font-sans">
+      <div className="layout-container flex h-full grow flex-col roboto-regular">
         <div className="flex flex-1 justify-center">
           <div className="layout-content-container flex flex-col flex-1">
             <div className="px-56 py-10" id="about-us">
