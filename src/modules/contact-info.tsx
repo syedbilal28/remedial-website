@@ -2,7 +2,7 @@ import React from "react";
 
 export const ContactInfo = () => (
   <>
-    <h3 className="text-[#0d131c] tracking-light text-2xl font-bold leading-tight px-4 text-left pb-2 pt-5">
+    <h3 className="text-[#182A54] leelawadee tracking-light text-3xl font-bold leading-tight px-4 text-left pb-2 pt-5">
       Or, reach out directly
     </h3>
     <div className="flex items-center gap-4 bg-[#f8f9fc] px-4 min-h-[72px] py-2">
@@ -50,7 +50,7 @@ export const ContactInfo = () => (
       </div>
       <div className="flex flex-col justify-center">
         <p className="text-[#0d131c] text-base font-medium leading-normal line-clamp-1">
-          info@southcoastremedial.com.au
+        office@southcoastremedial.com
         </p>
         <p className="text-[#47699e] text-sm font-normal leading-normal line-clamp-2">
           Mon-Fri, 9am-5pm

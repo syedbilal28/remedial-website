@@ -9,7 +9,7 @@ export const GetStarted = () => {
     <div className="@container px-56">
       <div className="flex flex-col items-center justify-end gap-6 py-10 @[480px]:gap-8 @[480px]:px-10 @[480px]:py-20">
         <div className="flex flex-col gap-2 text-center">
-          <h1 className="text-[#0d131b] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]">
+          <h1 className="text-[#182A54] tracking-light text-5xl leelawadee font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]">
             Ready to get started?
           </h1>
           <p className="text-[#0d131b] text-base font-normal leading-normal max-w-[720px]">

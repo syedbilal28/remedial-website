@@ -133,7 +133,7 @@ export const Services = () => {
 
   return (
     <div className="flex flex-col gap-10 py-10 @container px-56 items-center">
-    <h1 className="text-[#0d131b] leelawadee tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]">
+    <h1 className="text-[#182A54] leelawadee tracking-light text-5xl font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]">
       What We Do
     </h1>
     <div className="grid grid-cols-[repeat(auto-fit,minmax(400px,1fr))] gap-5 w-full">

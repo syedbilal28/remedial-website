@@ -16,7 +16,7 @@ export default function ContactUs() {
                   ></div>
                   <div className="flex flex-col justify-center items-center gap-6 @[480px]:min-w-[400px] @[480px]:gap-8 @[864px]:justify-center">
                     <h1
-                      className="text-[#0d131c] text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] text-center"
+                      className="text-[#182A54] leelawadee text-4xl font-bold leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] text-center"
                     >
                       Let&lsquo;s talk about your next project
                     </h1>

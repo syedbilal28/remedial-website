@@ -77,7 +77,13 @@
     font-style: italic;
   }
 
-  .leelawadee {
+  @font-face {
     font-family: 'Leelawadee UI Semilight';
-    src: url('/fonts/LeelawadeeUI-Semilight.ttf') format('truetype');
+    src: url('/fonts/LeelUIsl.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .leelawadee {
+    font-family: 'Leelawadee UI Semilight', sans-serif;
   }

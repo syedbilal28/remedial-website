@@ -24,7 +24,7 @@ export default function Sectors() {
                   }}
                 >
                   <div className="flex flex-col gap-2 text-center w-2/6 backdrop-blur-sm">
-                    <h1 className="text-white text-6xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
+                    <h1 className="text-white leelawadee text-6xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
                       Sectors
                     </h1>
                     <h2 className="text-white text-lg font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
@@ -38,7 +38,7 @@ export default function Sectors() {
 
             {/* Residential Section */}
             <section className="my-10 px-40">
-              <h3 className="text-2xl font-bold mb-4">Residential</h3>
+              <h3 className="text-[#182A54] leelawadee text-5xl font-bold mb-4">Residential</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="flex flex-col">
                   <img
@@ -71,7 +71,7 @@ export default function Sectors() {
 
             {/* Commercial Section */}
             <section className="my-10 px-40">
-              <h3 className="text-2xl font-bold mb-4">Commercial</h3>
+              <h3 className="text-[#182A54] leelawadee text-5xl font-bold mb-4">Commercial</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="flex flex-col">
                   <img
@@ -102,7 +102,7 @@ export default function Sectors() {
 
             {/* Public Sector Section */}
             <section className="my-10 px-40">
-              <h3 className="text-2xl font-bold mb-4">Public sector</h3>
+              <h3 className="text-[#182A54] leelawadee text-5xl font-bold mb-4">Public sector</h3>
               <p className="text-gray-600">
                 We provide a range of remedial solutions to the public sector,
                 including local councils and government departments.

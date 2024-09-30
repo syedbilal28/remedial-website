@@ -23,22 +23,21 @@ export const Header = () => {
           />
         </div>
         <div>
-        <h2 className="text-[#182A54] text-2xl font-bold leading-tight tracking-[-0.015em]">
+        <h2 className="text-[#182A54] leelawadee text-4xl font-bold leading-tight tracking-[-0.015em]">
           South Coast Remedial
         </h2>
         </div>
-        
       </div>
 
       <div className="hidden md:flex flex-1 justify-end gap-8">
-        <div className="flex items-center gap-6 md:gap-9">
-          <a className="text-[#0d131b] text-base md:text-lg font-medium leading-normal" href="/">
+        <div className="flex leelawadee items-center font-bold gap-6 md:gap-9">
+          <a className="text-[#0d131b] text-base md:text-lg leading-normal" href="/">
             Home
           </a>
-          <a className="text-[#0d131b] text-base md:text-lg font-medium leading-normal" href="/#about-us">
+          <a className="text-[#0d131b] text-base md:text-lg leading-normal" href="/#about-us">
             About Us
           </a>
-          <a className="text-[#0d131b] text-base md:text-lg font-medium leading-normal" href="/sectors">
+          <a className="text-[#0d131b] text-base md:text-lg leading-normal" href="/sectors">
             Sectors
           </a>
           {/* Commented due to Testimonials being removed */}
