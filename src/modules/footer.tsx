@@ -8,7 +8,7 @@ export const Footer = () => (
         <div className="flex items-center gap-4 text-[#0d131b]">
           <div className="w-12 h-12">
             <Image
-              src={"/logo.png"}
+              src={"/logo.PNG"}
               alt="logo"
               width={100}
               height={100}
