@@ -14,7 +14,7 @@ export const Footer = () => (
               height={100}
             />
           </div>
-          <h2 className="text-[#182A54] text-4xl leelawadee font-bold leading-tight tracking-[-0.015em]">
+          <h2 className="text-[#182A54] text-3xl leelawadee font-bold leading-tight tracking-[-0.015em]">
             South Coast Remedial
           </h2>
         </div>

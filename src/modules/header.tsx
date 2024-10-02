@@ -23,7 +23,7 @@ export const Header = () => {
           />
         </div>
         <div>
-        <h2 className="text-[#182A54] leelawadee text-4xl font-bold leading-tight tracking-[-0.015em]">
+        <h2 className="text-[#182A54] leelawadee text-3xl font-bold leading-tight tracking-[-0.015em]">
           South Coast Remedial
         </h2>
         </div>

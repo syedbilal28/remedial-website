@@ -11,7 +11,7 @@ export const Services = () => {
         your property, including reinforcement of beams, columns, and walls. Our team ensures
         that all repairs meet the highest industry standards, providing long-lasting solutions for
         both residential and commercial structures.`,
-      image: "/structural-repairs.png",
+      image: "/new/1.png",
     },
     {
       title: "Waterproofing",
@@ -21,7 +21,7 @@ export const Services = () => {
         installations, and crack injections. By preventing water infiltration, we help safeguard the
         structural integrity of your building, reducing the risk of mold, mildew, and further
         deterioration.`,
-      image: "/waterproofing.jpg",
+      image: "/new/waterproofing.jpg",
     },
     {
       title: "Foundation Stabilization",
@@ -31,7 +31,7 @@ export const Services = () => {
         installation to correct foundation settlement and movement. We conduct thorough
         assessments to determine the most effective approach, ensuring a stable and secure
         foundation for your building.`,
-      image: "/foundation-stabilisation.jpg",
+      image: "/new/46.png",
     },
     {
       title: "Concrete Repairs and Restoration",
@@ -41,7 +41,7 @@ export const Services = () => {
         restore concrete surfaces, ensuring durability and enhancing the appearance of your
         structures. Whether it’s a parking deck, walkway, or structural element, we provide
         solutions that meet your specific needs.`,
-      image: "/concrete-repairs.jfif",
+      image: "/new/40.png",
     },
     {
       title: "Crack Injection",
@@ -51,7 +51,7 @@ export const Services = () => {
         preventing water infiltration and restoring the structural integrity of the affected areas. Our
         crack injection services are suitable for various applications, including walls, floors, and
         ceilings.`,
-      image: "/crack-injection.jpg",
+      image: "/new/crack-injection.png",
     },
     {
       title: "Facade and Cladding Repairs",
@@ -61,7 +61,7 @@ export const Services = () => {
         replacement of damaged elements, re-sealing joints, and applying protective coatings. 
         We work to restore the appearance and functionality of your building's exterior, enhancing
         both aesthetics and performance.`,
-      image: "/building-inspection.png",
+      image: "/new/facade repair.jpg",
     },
     {
       title: "Corrosion Control",
@@ -71,7 +71,7 @@ export const Services = () => {
         protection systems, and other methods to prevent and mitigate corrosion. We tailor our
         approach to the specific needs of your structure, ensuring long-term protection against
         environmental elements.`,
-      image: "/custom-remedial-solution.jpg",
+      image: "/new/corrosion-control.webp",
     },
     {
       title: "Defect Process",
@@ -79,7 +79,7 @@ export const Services = () => {
         `Our defect process is a systematic approach to identify, assess, and rectify construction
         defects efficiently and effectively. We ensure that all defects are addressed promptly to
         maintain the structural integrity and aesthetic appeal of your property.`,
-      image: "/damp-proofing.jpg",
+      image: "/new/25.png",
       indented: [
         {
           title: "Identification of Defects",
