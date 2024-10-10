@@ -10,18 +10,21 @@ export default function ContactUs() {
         style={{ fontFamily: 'Inter, "Noto Sans", sans-serif' }}
       >
         <div className="layout-container flex h-full grow flex-col">
-          <div className="px-40 flex flex-1 justify-center py-5">
+          <div className="px-4 sm:px-6 md:px-8 lg:px-40 xl:px-40 flex flex-1 justify-center py-5">
             <div className="layout-content-container flex flex-col flex-1">
               <div className="@container">
-                <div className="flex flex-row justify-center items-center gap-6 px-4 py-10 @[480px]:gap-8 @[864px]:flex-row">
+                <div className="flex flex-col lg:flex-row justify-center items-center gap-6 py-10">
                   <div
-                    className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl @[480px]:h-auto @[480px]:min-w-[400px] @[864px]:w-full"
+                    className="w-full max-w-7xl bg-center bg-no-repeat aspect-video bg-cover rounded-xl justify-start"
                     style={{
                       backgroundImage:
                         'url("https://cdn.usegalileo.ai/sdxl10/68ba9469-40ab-4877-84b9-eb0896e9c897.png")',
                     }}
                   ></div>
-                  <ContactForm/>
+                  <div className="w-full-max-w-xl px-4">
+                    <ContactForm/>
+                  </div>
+                  
                 </div>
               </div>
               <ContactInfo />
