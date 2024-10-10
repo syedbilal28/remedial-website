@@ -21,11 +21,11 @@ export const OurValues = () => {
         }
     ]
     return (
-        <div className="px-56 text-center py-10">
+        <div className="px-56 text-center py-10 values">
             <h2 className="text-[#182A54] text-5xl leelawadee font-bold leading-tight tracking-[-0.015em] pb-3 pt-5">
             Our Values
             </h2>
-            <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 py-4">
+            <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 py-4 values-content">
             {valuesData.map((item, index) => (
                 <Value key={index} {...item} />
             ))}

@@ -87,3 +87,43 @@
   .leelawadee {
     font-family: 'Leelawadee UI Semilight', sans-serif;
   }
+
+  @media only screen and (max-width: 400px) {
+    .services, .why-choose-us, .mission, .vision, .values, .get-started, .footer {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+
+    .hero-content {
+      width: 80%;
+    }
+
+    .mission-content, .vision-content, .values-content, .choose-us-content {
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+
+    .footer-image {
+      width: 8rem;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .services, .why-choose-us, .mission, .vision, .values, .get-started, .footer {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+
+    .hero-content {
+      width: 80%;
+    }
+
+    .mission-content, .vision-content, .values-content, .choose-us-content {
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+
+    .footer-image {
+      width: 8rem;
+    }
+  }

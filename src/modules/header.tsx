@@ -14,18 +14,13 @@ export const Header = () => {
   return (
     <header className="flex roboto-regular items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7ecf3] px-6 py-3 md:px-10 md:py-4">
       <div className="flex items-center gap-4 text-[#0d131b] items-end">
-        <div className="w-12 h-12">
+        <div className="w-64 h-10">
           <Image
-            src={"/logo.PNG"}
+            src={"/logo/logo.png"}
             alt="logo"
-            width={100}
+            width={300}
             height={100}
           />
-        </div>
-        <div>
-        <h2 className="text-[#182A54] leelawadee text-3xl font-bold leading-tight tracking-[-0.015em]">
-          South Coast Remedial
-        </h2>
         </div>
       </div>
 

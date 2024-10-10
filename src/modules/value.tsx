@@ -7,13 +7,13 @@ export interface ValuesItem {
 }
 
 export const Value: React.FC<ValuesItem> = ({title, value}) => (
-    <div className="grid grid-rows-3 grid-flow-col gap-4 p-1 text-left">
-        <div className="p-1 w-full rounded-xl row-span-3">
+    <div className="flex items-start space-x-4 p-1 text-left max-w-[350px]">
+        <div className="flex-shrink-0">
             <CheckCircleFilled style={{ color: "#1366EC", fontSize: "40px" }} />
         </div>
-        <div className="p-1 w-full rounded-xl col-span-2 text-[#0d131b] text-base font-bold leading-tight text-xl flex">
-            <h2>{title}</h2>
+        <div className="flex-grow">
+            <h2 className="text-lg font-bold text-[#0d131b] leading-tight mb-1 py-2">{title}</h2>
+            <p className="text-md">{value}</p>
         </div>
-        <div className="p-1 w-full rounded-xl row-span-2 col-span-2 text-md">{value}</div>
     </div>
 )

@@ -23,7 +23,7 @@ export default function Sectors() {
                       'linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("/new/8.png")',
                   }}
                 >
-                  <div className="flex flex-col gap-2 text-center w-2/6 backdrop-blur-sm">
+                  <div className="flex flex-col gap-2 text-center w-2/6 backdrop-blur-sm hero-content">
                     <h1 className="text-white leelawadee text-6xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
                       Sectors
                     </h1>

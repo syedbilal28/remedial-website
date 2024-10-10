@@ -35,11 +35,11 @@ export const WhyChooseUs = () => {
   ];
 
   return (
-    <div className="px-56 text-center py-10 gap-10">
+    <div className="px-56 text-center py-10 gap-10 why-choose-us">
     <h2 className="text-[#182A54] leelawadee text-5xl font-bold leading-tight tracking-[-0.015em] pb-10 pt-5">
       Why Choose Us?
     </h2>
-    <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 py-4">
+    <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 py-4 choose-us-content">
       {whyChooseUsData.map((item, index) => (
         <WhyChooseUsItem key={index} {...item} />
       ))}
