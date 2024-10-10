@@ -23,6 +23,11 @@ const ContactForm: React.FC = () => {
     message: "",
   });
   const [errors, setErrors] = useState<FormErrors>({});
+  const [isLoading, setIsLoading] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<{
+    type: 'success' | 'error' | null;
+    message: string;
+  }>({ type: null, message: '' });
 
   const handleChange = (
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -49,9 +54,11 @@ const ContactForm: React.FC = () => {
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setSubmitStatus({ type: null, message: '' });
     if (validateForm()) {
+      setIsLoading(true);
       try {
-        const response = await fetch("https://api.example.com/submit-form", {
+        const response = await fetch("https://remedial-website.vercel.app/api/contact", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -59,14 +66,25 @@ const ContactForm: React.FC = () => {
           body: JSON.stringify(formData),
         });
         if (response.ok) {
-          alert("Form submitted successfully!");
+          setSubmitStatus({
+            type: 'success',
+            message: 'Form submitted successfully!'
+          });
           setFormData({ name: "", email: "", contactNumber: "", message: "" });
         } else {
-          alert("Form submission failed. Please try again.");
+          setSubmitStatus({
+            type: 'error',
+            message: 'Form submission failed. Please try again.'
+          });
         }
       } catch (error) {
         console.error("Error submitting form:", error);
-        alert("An error occurred. Please try again later.");
+        setSubmitStatus({
+          type: 'error',
+          message: 'An error occurred. Please try again later.'
+        });
+      } finally {
+        setIsLoading(false);
       }
     }
   };
@@ -76,6 +94,13 @@ const ContactForm: React.FC = () => {
       <h1 className="text-[#182A54] leelawadee text-4xl font-bold leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] text-center mb-6">
         Let&lsquo;s talk about your next project
       </h1>
+      {submitStatus.type && (
+        <div className={`mb-4 p-4 rounded-xl ${
+          submitStatus.type === 'success' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'
+        }`}>
+          {submitStatus.message}
+        </div>
+      )}
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
           <input
@@ -139,9 +164,22 @@ const ContactForm: React.FC = () => {
         <div className="flex justify-center">
           <button
             type="submit"
-            className="bg-[#79abfc] text-white font-bold py-2 px-8 rounded-xl hover:bg-[#5b8ee6] transition duration-300"
+            disabled={isLoading}
+            className={`bg-[#79abfc] text-white font-bold py-2 px-8 rounded-xl hover:bg-[#5b8ee6] transition duration-300 flex items-center justify-center min-w-[150px] ${
+              isLoading ? 'opacity-70 cursor-not-allowed' : ''
+            }`}
           >
-            Get in Touch
+            {isLoading ? (
+              <>
+                <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+                Submitting...
+              </>
+            ) : (
+              'Get in Touch'
+            )}
           </button>
         </div>
       </form>
