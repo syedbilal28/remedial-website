@@ -11,7 +11,7 @@ export const Services = () => {
         your property, including reinforcement of beams, columns, and walls. Our team ensures
         that all repairs meet the highest industry standards, providing long-lasting solutions for
         both residential and commercial structures.`,
-      image: "/new/1.png",
+      image: "/new/40.png",
     },
     {
       title: "Waterproofing",
@@ -41,7 +41,7 @@ export const Services = () => {
         restore concrete surfaces, ensuring durability and enhancing the appearance of your
         structures. Whether it’s a parking deck, walkway, or structural element, we provide
         solutions that meet your specific needs.`,
-      image: "/new/40.png",
+      image: "/new/large-remedial.jpg",
     },
     {
       title: "Crack Injection",
